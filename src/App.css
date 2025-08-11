@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 320px;
+  padding: 20px;
+  gap: 1em;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  margin: 0 auto;
+  border-radius: 15px;
+  
+
+.imgLogo{
+  margin: 0 auto;
+
+
+}

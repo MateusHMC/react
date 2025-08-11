@@ -1,0 +1,12 @@
+.menuBar ul{
+    display: flex;
+    flex-direction: row;
+
+    gap: 25px;
+}
+
+.menuBar ul li:hover{
+    
+    color: antiquewhite;
+    
+}

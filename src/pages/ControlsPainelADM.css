@@ -1,0 +1,23 @@
+.painel_adm{
+    display: flex;
+    height: 100vh;
+}
+
+.painel_container{
+    flex: 1;
+    padding: 20px;
+    background-color: aliceblue;
+    overflow-y: auto;
+   
+}
+
+.configPainel {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+  
+}
+
+.tittlePage{
+    margin-bottom: 20px;
+}
