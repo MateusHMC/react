@@ -1,0 +1,27 @@
+form{
+    margin-top: 20px;
+    
+}
+
+
+legend{
+    margin-bottom: 20px;
+
+}
+
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    
+}
+
+.form-group label{
+    font-size: 1.0em;
+}
+
+.form-group input{
+    box-shadow: rgb(255, 187, 4) 0px 1px 2px, rgb(255, 187, 0) 0px 2px 4px, rgba(255, 187, 0, 0.589) 0px 4px 8px, rgba(255, 187, 0, 0.349) 0px 8px 16px, rgba(255, 187, 0, 0) 0px 16px 32px, rgba(255, 187, 0, 0.07) 0px 32px 64px;
+}
