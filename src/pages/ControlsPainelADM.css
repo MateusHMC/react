@@ -14,7 +14,8 @@
 .configPainel {
     background-color: rgb(0, 0, 0);
     padding: 20px;
-    border-radius: 8px;
+    border: solid 3px rgb(255, 153, 0);
+   
   
 }
 

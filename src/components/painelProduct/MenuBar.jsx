@@ -5,6 +5,7 @@ import { LuPackagePlus } from "react-icons/lu";
 import { FaTruckLoading,FaFileInvoiceDollar} from "react-icons/fa";
 import { GoPackageDependents,GoPackageDependencies } from "react-icons/go";
 
+
 export const MenuBar = ({setActionPainelProduct}) => {
 
   return (

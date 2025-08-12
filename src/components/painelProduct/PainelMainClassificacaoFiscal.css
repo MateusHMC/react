@@ -1,5 +1,23 @@
+.containerClassificacaoFiscal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+#pesquisar{
+    width: 100%;
+    border: solid;
+    margin-top: 25px;
+    
+    
+}
+
 form{
     margin-top: 20px;
+    width: 600px;
+    
     
 }
 
@@ -9,6 +27,10 @@ legend{
 
 }
 
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .form-group{
     display: flex;
@@ -16,12 +38,76 @@ legend{
     color: rgb(255, 255, 255);
     padding: 10px;
     
+  
+    
+    
 }
 
 .form-group label{
-    font-size: 1.0em;
+    padding-left: 10px;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    
 }
 
 .form-group input{
     box-shadow: rgb(255, 187, 4) 0px 1px 2px, rgb(255, 187, 0) 0px 2px 4px, rgba(255, 187, 0, 0.589) 0px 4px 8px, rgba(255, 187, 0, 0.349) 0px 8px 16px, rgba(255, 187, 0, 0) 0px 16px 32px, rgba(255, 187, 0, 0.07) 0px 32px 64px;
+}
+
+.form-actions{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+button{
+    background-color: rgb(rgb(238, 255, 0));
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    margin-top: 25px;
+    
+}
+
+button:hover{
+    background-color: rgb(255, 187, 0);
+    cursor: pointer;
+    
+}
+
+.tableListClassificacaoFiscal {
+    flex: 1;
+}
+ 
+.tableListClassificacaoFiscal table{
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid;
+ 
+}
+ 
+.tableListClassificacaoFiscal th,tr,td{
+border: 1px solid;
+}
+
+@media  (max-width: 1200px){
+
+    .form{
+        width: 100%;
+    }
+
+    .form-container{
+        justify-content: center;
+    }
+
+    .containerClassificacaoFiscal{
+
+       
+        flex-direction: column;
+    }
+    
 }

@@ -2,15 +2,15 @@ import React, { useState } from 'react'
 import { MenuBar } from '../components/painelProduct/MenuBAr'
 import PainelMainClassificacaoFiscal from '../components/painelProduct/PainelMainClassificacaoFiscal'
 
+import PainelMainAddProduto from '../components/painelProduct/PainelMainAddProduto'
+
 export const PainelProduct = () => {
 
     const [actionPainelProduct,setActionPainelProduct] = useState("classificacaoFiscal")
 
     const painelsProduct={
         classificacaoFiscal:(<PainelMainClassificacaoFiscal/>),
-        addProdutos:(<div>
-            <h1>Tela Add Produtos</h1>
-        </div>),
+        addProdutos:(<PainelMainAddProduto/>),
         fornecedores:(<div>
             <h1>Tela Fornecedores</h1>
         </div>),
